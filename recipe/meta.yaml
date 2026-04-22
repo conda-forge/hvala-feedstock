@@ -1,5 +1,5 @@
 {% set name = "hvala" %}
-{% set version = "0.0.9" %}
+{% set version = "0.1.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hvala-{{ version }}.tar.gz
-  sha256: c1ece514e352342dd3cb1fdcd5a5300d7899e82fd5239e09ef0755c628bfe187
+  sha256: 0a632aa0185715dbae1e75656d38da15bdfd24c4330c1903e56184727a94b281
 
 build:
   entry_points:
